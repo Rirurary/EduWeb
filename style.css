@@ -1,0 +1,337 @@
+body{
+    margin: 0;
+}
+
+h1{
+    font-size: 39px;
+    padding: 0;
+    margin: 0;
+    width: 515px;
+}
+
+h3{
+    font-size: 29px;
+}
+
+.container{  
+    margin-top: 400px;
+}
+
+.orange_text{
+    color: #F78065;
+}
+
+.main_pic{
+    width: 100%;
+}
+
+@media (max-width:720px) {
+    .welcome_info{
+        top: 10%;
+    }
+}
+
+.welcome_info{
+    background-color: white;
+    width: 70%;
+    margin-left: 10%;
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    left: 3%;
+
+    padding-left: 64px;
+    padding-top: 96px;
+
+    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
+}
+
+.welcome_main_text{
+    display: inline;
+}
+
+.welcome_text{
+    width: 57%;
+    font-size: 20px;
+    margin: 29px 0;
+}
+
+.button_Explore{
+    color: white;
+    background-color: #F78065;
+    font-size: 18px;
+    width: 250px;
+    height: 65px;
+
+    display: flex;
+    margin-bottom: 75px;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+}
+
+.Ex_img{
+    padding: 8px;
+}
+
+.Making_text{
+    margin: 253px 15% 108px;
+    font-size: 36px;
+}
+
+.first_infoblock{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info_in1block{
+    width: 386px;
+    margin-left: 41px;
+}
+
+.img_1b{
+    margin-bottom: 84px;
+}
+
+.firstp_1b{
+    color: #808080;
+    font-size: 18px;
+}
+
+.secondp_1b{
+    color: #F78065;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.second_infoblock{
+    display: flex;
+    margin-bottom: 263px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info_in2block{
+    width: 275px;
+    margin-right: 46px;
+}
+
+.img_2b{
+    margin-bottom: 64px;
+}
+
+.h3_b2{
+    font-size: 22px;
+    margin-bottom: 31px;
+}
+
+.text_2b{
+    font-size: 14px;
+    color: #808080;
+}
+
+.show_more{
+    font-size: 18px;
+    color: #F78065;
+    text-decoration: none;
+}
+
+.third_infoblock{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.start{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width:720px){
+    .maininfo_b3{
+        margin-left: 75px;
+        margin-bottom: 40px;
+    }
+}
+
+.maininfo_b3{
+    margin-right: 127px;
+    width: 250px;
+}
+
+.main_text_3b{
+    font-size: 36px;
+    margin-bottom: 32px;
+}
+
+.img_3b{
+    margin-bottom: 24px;
+}
+
+.Discover_text{
+    margin-bottom: 48px;
+}
+
+.button_start{
+    width: 250px;
+    height: 65px;
+    background-color: #F78065;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.info_in3block{
+    width: 230px;
+    margin-right: 49px;
+    margin-bottom: 15px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.str1_3b{
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.wtr2_3b{
+    margin-bottom: 11px;
+    font-size: 14px;
+}
+
+.View_Site{
+    color: #F78065;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.Advantages{
+    font-size: 36px;
+    margin: 232px 15% 108px;
+    
+}
+
+.fourth_infoblock{
+    display: flex;
+    margin-bottom: 255px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info_in4block{
+    width: 386px;
+    margin-right: 41px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.img_4b{
+    width: 32px;
+    margin-bottom: 64px;
+}
+
+.h3_b4{
+    font-size: 22px;
+}
+
+.p_4b{
+    position: relative;
+    top: 52px;
+    color: #808080;
+    font-size: 14px;
+}
+
+.p2_4b{
+    position: relative;
+    top: 24px;
+    color: #808080;
+    font-size: 14px;
+}
+
+footer{
+    background-color: #F7F7F7;
+    padding-left: 119px;
+}
+
+.infooter{
+    display: flex;
+    padding-top: 96px;
+}
+
+.main_footerblock{
+    margin-right: 157px;
+}
+
+.EzCamper{
+    font-size: 24px;
+    font-weight:bold;
+    margin: 0 0 16px;
+
+}
+
+.Comfort{
+    font-size: 48px;
+    font-weight: bold;
+    width: 304px;
+    margin: 0 0 85px;
+}
+
+.footer_block{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.name_footer_buttons1{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 26px;
+    margin-right: 125px;
+}
+
+.name_footer_buttons2{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 26px;
+    margin-right: 117px;
+}
+
+.footer_button{
+    font-size: 14px;
+    margin-bottom: 24px;
+    text-decoration: none;
+    color: black;
+}
+
+.Last{
+    display: flex;
+    margin-right: 119px;
+    padding: 28px 0 63px;
+    border-top: #808080 solid 2px;
+    font-size: 14px;
+}
+
+.EzCamp{
+    display: flex;
+    flex-grow: 1;
+}
+
+.last_button{
+    margin-left: 48px;
+    text-decoration: none;
+    color: black;
+}
