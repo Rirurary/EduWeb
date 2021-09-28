@@ -53,6 +53,7 @@ h3{
         width: 65%;
         left: 2%;
         top: 20%;
+        align-self: center;
     }
 
     .welcome_main_text{
